@@ -1,14 +1,21 @@
-import './App.css';
+import Home from "./components/Home";
+import Page from "./components/Page";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+}
+from 'react-router-dom';
+import React from "react";
 
 function App() {
   return (
-    <>
-    <h1>
-      Subscribe to our Newsletter
-    </h1>
-    <Form />
-    
-    
+    <Router>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/contact' element={<Page />}/>
+        </Routes>
+    </Router>
   );
 }
 

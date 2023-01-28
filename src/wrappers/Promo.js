@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   div {
@@ -10,9 +10,9 @@ const Wrapper = styled.section`
       position: fixed;
       bottom: 0;
     }
-    background-color: rgb(255,225,0);
+    background-color: rgb(255, 225, 0);
     width: 100%;
-    box-shadow: 0px -10px 25px 5px rgba(22,240,22,1);
+    box-shadow: 0px -10px 25px 5px rgba(22, 240, 22, 1);
     @media (min-width: 549px) {
       height: calc(10rem + 2vw);
     }
@@ -23,13 +23,13 @@ const Wrapper = styled.section`
   }
   .hide {
     bottom: -20rem;
-    transition-property: all; 
+    transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 600ms;
   }
   .show {
     bottom: 0;
-    transition-property: all; 
+    transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 800ms;
   }
@@ -53,11 +53,11 @@ const Wrapper = styled.section`
   }
   @keyframes shine {
     0% {
-    background-position: 0;
+      background-position: 0;
     }
     100% {
       background-position: 100vw;
     }
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

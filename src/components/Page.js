@@ -1,7 +1,7 @@
-import NavigationMenu from "./NavigationMenu"
-import Contact from "./Contact"
-import Footer from "./Footer"
-import Wrapper from "../wrappers/Fonts"
+import NavigationMenu from "./NavigationMenu";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Wrapper from "../wrappers/Fonts";
 
 const Page = () => {
   return (
@@ -10,6 +10,6 @@ const Page = () => {
       <Contact />
       <Footer />
     </Wrapper>
-  )
-}
-export default Page
+  );
+};
+export default Page;

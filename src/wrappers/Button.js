@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
   button {
     min-width: fit-content;
     color: white;

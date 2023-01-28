@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   img {
@@ -17,7 +17,8 @@ const Wrapper = styled.section`
   .navbar {
     z-index: 8;
     margin-bottom: calc(10px + 5vw);
-    box-shadow: inset -3px 7px 35px 200px rgba(17,18,17,1), -3px 18px 35px 16px rgba(22,240,22,1);
+    box-shadow: inset -3px 7px 35px 200px rgba(17, 18, 17, 1),
+      -3px 18px 35px 16px rgba(22, 240, 22, 1);
   }
   .link {
     @media (min-width: 992px) {
@@ -45,11 +46,11 @@ const Wrapper = styled.section`
   }
   .dropdown-divider {
     border-top: 1px solid black;
-    box-shadow: 0px 1px 2px 0 rgba(0,0,0,1);
+    box-shadow: 0px 1px 2px 0 rgba(0, 0, 0, 1);
   }
   .logo {
     width: 100px;
     height: 100px;
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

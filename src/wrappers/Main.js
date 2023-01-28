@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   ul {
@@ -16,14 +16,13 @@ const Wrapper = styled.section`
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
-    //same box shadow as the rest i think
     box-shadow: rgba(0, 0, 0, 0.35) 15px 25px 55px 50px;
   }
 
   li {
-    //purple
     background-color: rgba(191, 85, 236, 0.6);
-    box-shadow: rgba(255, 255, 255, 0.7) 0px -10px 20px 10px, inset rgba(0, 0, 0, 0.4) 0px 0px 8px 4px;
+    box-shadow: rgba(255, 255, 255, 0.7) 0px -10px 20px 10px,
+      inset rgba(0, 0, 0, 0.4) 0px 0px 8px 4px;
   }
 
   .main {
@@ -43,30 +42,29 @@ const Wrapper = styled.section`
     padding: 2vw;
     display: flex;
     position: relative;
-    //same as between cards
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    //guess its the same as the others
     box-shadow: rgba(255, 255, 255, 0.7) 0px -10px 20px 10px;
     border-radius: 10px;
     margin-left: 1vw;
     margin-right: 1vw;
-    //same as hero
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  .insta, .menu {
+  .insta,
+  .menu {
     position: relative;
     margin-right: 0;
   }
 
   .insta {
-    box-shadow: 0 0 35px 20px rgba(255,225,0,1);
+    box-shadow: 0 0 35px 20px rgba(255, 225, 0, 1);
   }
 
   .menu {
-    box-shadow: 0 0 8px 6px rgba(40,155,255,1), inset 0 0 80px 16px rgba(40,155,255,1);
+    box-shadow: 0 0 8px 6px rgba(40, 155, 255, 1),
+      inset 0 0 80px 16px rgba(40, 155, 255, 1);
   }
 
   a {
@@ -84,7 +82,6 @@ const Wrapper = styled.section`
     transform: rotate(40deg);
     bottom: 50px;
   }
+`;
 
-`
-
-export default Wrapper
+export default Wrapper;

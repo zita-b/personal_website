@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   .home {
@@ -11,8 +11,8 @@ const Wrapper = styled.section`
     }
     align-items: center;
     margin: 0 auto;
-    box-shadow: 0px 0px 35px 26px rgba(246,36,89,1);
+    box-shadow: 0px 0px 35px 26px rgba(246, 36, 89, 1);
     margin-bottom: 100px;
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

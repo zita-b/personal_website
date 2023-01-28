@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import Wrapper from "../wrappers/Message";
 import Button from "./Button";
 import Notification from "./Notification";
+import Wrapper from "../wrappers/Message";
 
 const Message = () => {
   const form = useRef();
@@ -14,19 +14,13 @@ const Message = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const alert = useRef();
-
-  useEffect(() => {
-    const alertElement = alert.current;
-    console.log(alertElement);
-  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
     if (name === "" || email === "") {
       setType("warning");
       setText("all fields are mandatory");
-    } else if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))){
+    } else if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
       setType("warning");
       setText("please provide a valid email address");
     } else if (message.length < 14) {

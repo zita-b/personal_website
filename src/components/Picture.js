@@ -7,6 +7,6 @@ const Picture = () => {
         <img src={require(`../images/contact.jpg`)} alt="" />
       </article>
     </Wrapper>
-  )
-}
-export default Picture
+  );
+};
+export default Picture;

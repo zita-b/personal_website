@@ -5,9 +5,9 @@ const Wrapper = styled.section`
     margin-top: -140px;
     justify-content: center;
     display: flex;
-    box-shadow: 0px 0px 35px 26px rgba(246,36,89,1);
+    box-shadow: 0px 0px 35px 26px rgba(246, 36, 89, 1);
   }
-  
+
   img {
     width: 100vw;
     @media (min-width: 550px) {

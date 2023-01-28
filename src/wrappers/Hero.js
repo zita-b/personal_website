@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   .intro-container {
@@ -40,5 +40,5 @@ const Wrapper = styled.section`
     background-color: rgba(0, 0, 0, 0.5);
     //create universal padding for all sections and elements
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

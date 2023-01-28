@@ -1,10 +1,10 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   padding: 2vw;
   text-shadow: 1px 1px 5px black;
   article {
-    @media(min-width: 933px) {
+    @media (min-width: 933px) {
       max-width: 40vw;
     }
     display: flex;
@@ -29,5 +29,5 @@ const Wrapper = styled.section`
       height: 60px;
     }
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   footer {
@@ -21,7 +21,7 @@ const Wrapper = styled.section`
     align-items: center;
     justify-content: space-around;
     background-color: black;
-    transition-property: all; 
+    transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 700ms;
   }
@@ -33,7 +33,7 @@ const Wrapper = styled.section`
   }
   a {
     text-decoration: none;
-    color:gray;
+    color: gray;
     transition: all 0.3s linear;
     font-weight: 600;
   }
@@ -45,5 +45,5 @@ const Wrapper = styled.section`
       width: 25px;
     }
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   white-space: nowrap;
@@ -7,5 +7,5 @@ const Wrapper = styled.section`
     align-items: baseline;
     gap: 10px;
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

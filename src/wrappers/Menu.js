@@ -1,10 +1,11 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
-  .menu-container::-webkit-scrollbar{
+  .menu-container::-webkit-scrollbar {
     display: none;
   }
-  .menu-container h2, h4 {
+  .menu-container h2,
+  h4 {
     color: white;
     text-shadow: 0.1em 0.1em black;
   }
@@ -38,6 +39,6 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: center;
   }
-`
+`;
 
-export default Wrapper
+export default Wrapper;

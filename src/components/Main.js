@@ -11,8 +11,8 @@ const Main = () => {
       <main>
         <article className="main">
           <ul>
-            {cards.map((card, i) => (
-              <li key={i}>
+            {cards.map((card) => (
+              <li key={card.id}>
                 <Card title={card.title} description={card.text} />
               </li>
             ))}
@@ -22,21 +22,23 @@ const Main = () => {
         <article className="content">
           <div className="insta">
             <ImgCarousel />
-            <a href="https://www.instagram.com/stephaniequatro/" target="_blank" rel="noreferrer">
-              <Button
-                text={'Follow me on Instagram'}
-                submit={''}
-              />
+            <a
+              href="https://www.instagram.com/stephaniequatro/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button text={"Follow me on Instagram"} submit={""} />
             </a>
           </div>
 
           <div className="menu">
             <Menu />
-            <a href="https://www.twitch.tv/stephaniequatro" target="_blank" rel="noreferrer">
-              <Button
-                text={'Check out my Twitch'}
-                submit={''}
-              />
+            <a
+              href="https://www.twitch.tv/stephaniequatro"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button text={"Check out my Twitch"} submit={""} />
             </a>
           </div>
         </article>

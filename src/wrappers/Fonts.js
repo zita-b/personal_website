@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Wrapper = styled.section`
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: white;
   h1 {
     text-shadow: 1px 1px 5px black;
@@ -18,7 +18,8 @@ const Wrapper = styled.section`
   label {
     text-shadow: 1px 1px 5px black;
   }
-  h2, h3 {
+  h2,
+  h3 {
     text-shadow: 1px 1px 5px black;
     font-weight: bold;
     font-size: 42px;
@@ -30,7 +31,13 @@ const Wrapper = styled.section`
     }
   }
 
-  p, span, h4, button, a, label, input {
+  p,
+  span,
+  h4,
+  button,
+  a,
+  label,
+  input {
     font-size: 20px;
     @media (min-width: 1120px) {
       font-size: 24px;
@@ -42,5 +49,5 @@ const Wrapper = styled.section`
   a {
     text-decoration: none;
   }
-`
-export default Wrapper
+`;
+export default Wrapper;

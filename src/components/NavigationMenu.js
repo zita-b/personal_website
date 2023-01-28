@@ -3,26 +3,19 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import LinkIcon from "./LinkIcon";
+import { Link } from "react-router-dom";
 import Wrapper from "../wrappers/NavigationMenu";
-import {
-  Link
-} from 'react-router-dom';
 
 function NavigationMenu() {
   return (
     <Wrapper>
-      <Navbar
-        collapseOnSelect
-        expand="md"
-        variant="dark"
-        className="navbar"
-      >
+      <Navbar collapseOnSelect expand="md" variant="dark" className="navbar">
         <Container className="nav-container">
           <Navbar.Brand href="#home">
-            <Link to='/'>
+            <Link to="/">
               <img
-                src={require('../images/logo.png')}
-                alt=''
+                src={require("../images/logo.png")}
+                alt=""
                 className="logo"
               />
             </Link>
@@ -31,8 +24,8 @@ function NavigationMenu() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link className="link">
-                <Link to='/contact' className="contact-link">
-                    Contact
+                <Link to="/contact" className="contact-link">
+                  Contact
                 </Link>
               </Nav.Link>
               <Nav.Link
@@ -42,7 +35,7 @@ function NavigationMenu() {
               >
                 <LinkIcon
                   icon={
-                    <img src="https://img.icons8.com/color/48/null/hand-holding-heart.png" />
+                    <img src="https://img.icons8.com/color/48/null/hand-holding-heart.png" alt=""/>
                   }
                   text={"Donate"}
                 />
@@ -55,7 +48,9 @@ function NavigationMenu() {
                   className="bg-success font"
                 >
                   <LinkIcon
-                    icon={<img src="https://img.icons8.com/color/48/null/instagram-new--v1.png"/>}
+                    icon={
+                      <img src="https://img.icons8.com/color/48/null/instagram-new--v1.png" alt=""/>
+                    }
                     text={"Instagram"}
                   />
                 </NavDropdown.Item>
@@ -66,7 +61,9 @@ function NavigationMenu() {
                   className="bg-warning font"
                 >
                   <LinkIcon
-                    icon={<img src="https://img.icons8.com/color/48/null/discord--v2.png"/>}
+                    icon={
+                      <img src="https://img.icons8.com/color/48/null/discord--v2.png" alt=""/>
+                    }
                     text={"Discord"}
                   />
                 </NavDropdown.Item>
@@ -77,7 +74,9 @@ function NavigationMenu() {
                   className="bg-primary font"
                 >
                   <LinkIcon
-                    icon={<img src="https://img.icons8.com/color/48/null/twitter--v1.png"/>}
+                    icon={
+                      <img src="https://img.icons8.com/color/48/null/twitter--v1.png" alt=""/>
+                    }
                     text={"Twitter"}
                   />
                 </NavDropdown.Item>
@@ -88,7 +87,9 @@ function NavigationMenu() {
                   className="bg-success font"
                 >
                   <LinkIcon
-                    icon={<img src="https://img.icons8.com/color/48/null/tiktok--v1.png"/>}
+                    icon={
+                      <img src="https://img.icons8.com/color/48/null/tiktok--v1.png" alt=""/>
+                    }
                     text={"TikTok"}
                   />
                 </NavDropdown.Item>
@@ -100,7 +101,9 @@ function NavigationMenu() {
                   className="bg-warning font"
                 >
                   <LinkIcon
-                    icon={<img src="https://img.icons8.com/color/48/null/twitch--v1.png"/>}
+                    icon={
+                      <img src="https://img.icons8.com/color/48/null/twitch--v1.png" alt=""/>
+                    }
                     text={"Twitch"}
                   />
                 </NavDropdown.Item>
@@ -111,7 +114,7 @@ function NavigationMenu() {
                 >
                   <LinkIcon
                     icon={
-                      <img src="https://img.icons8.com/color/48/null/spotify--v1.png" />
+                      <img src="https://img.icons8.com/color/48/null/spotify--v1.png" alt=""/>
                     }
                     text={"Spotify"}
                   />
@@ -127,7 +130,7 @@ function NavigationMenu() {
               >
                 <LinkIcon
                   icon={
-                    <img src="https://img.icons8.com/color/48/null/amazon.png" />
+                    <img src="https://img.icons8.com/color/48/null/amazon.png" alt=""/>
                   }
                   alt=""
                   text={"Wishlist"}
@@ -140,8 +143,13 @@ function NavigationMenu() {
                 target="_blank"
                 className="link"
               >
-                <LinkIcon icon={<img src="https://img.icons8.com/color/48/null/clothes.png"/>} alt=""
-                  text={"Merch"} />
+                <LinkIcon
+                  icon={
+                    <img src="https://img.icons8.com/color/48/null/clothes.png" alt=""/>
+                  }
+                  alt=""
+                  text={"Merch"}
+                />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

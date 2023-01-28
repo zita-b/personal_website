@@ -1,6 +1,6 @@
-import Video from "./Video"
-import Button from "./Button"
-import Wrapper from "../wrappers/Hero"
+import Video from "./Video";
+import Button from "./Button";
+import Wrapper from "../wrappers/Hero";
 
 const Hero = () => {
   return (
@@ -9,13 +9,19 @@ const Hero = () => {
         <div className="intro-container">
           <article>
             <h1>IRL QUATRO channel!</h1>
-            <p>Based in the beautiful city of Amsterdam, but you can find us EVERYWHERE. Coffeeshop? Gym? Party? Disneyland? Haunted church? Say no more. THE WORLD IS OURS!</p>
+            <p>
+              Based in the beautiful city of Amsterdam, but you can find us
+              EVERYWHERE. Coffeeshop? Gym? Party? Disneyland? Haunted church?
+              Say no more. THE WORLD IS OURS!
+            </p>
           </article>
 
-          <a href="https://www.youtube.com/@StephanieQuatro" target="_blank" rel="noreferrer">
-            <Button
-              text={'Go to my Youtube'}
-            />
+          <a
+            href="https://www.youtube.com/@StephanieQuatro"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button text={"Go to my Youtube"} />
           </a>
         </div>
 
@@ -24,7 +30,7 @@ const Hero = () => {
         </div>
       </section>
     </Wrapper>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

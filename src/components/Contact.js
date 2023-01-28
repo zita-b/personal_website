@@ -1,5 +1,5 @@
-import Picture from "./Picture"
-import Message from "./Message"
+import Picture from "./Picture";
+import Message from "./Message";
 import Wrapper from "../wrappers/Contact";
 
 const Contact = () => {
@@ -10,6 +10,6 @@ const Contact = () => {
         <Message />
       </div>
     </Wrapper>
-  )
-}
-export default Contact
+  );
+};
+export default Contact;

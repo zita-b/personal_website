@@ -6,7 +6,10 @@ const Card = ({ title, description }) => {
       <article>
         <div className="title">
           <h2>{title}</h2>
-          <img src="https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_552aca6979cd4429829af954705d8738/animated/light/3.0" alt=""></img>
+          <img
+            src="https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_552aca6979cd4429829af954705d8738/animated/light/3.0"
+            alt=""
+          ></img>
         </div>
         <p>{description}</p>
       </article>

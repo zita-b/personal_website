@@ -21,7 +21,10 @@ const Wrapper = styled.section`
     outline: none;
     border: none;
     resize: none;
-    min-width: 70%;
+    min-width: 60%;
+    @media (max-width: 550px) {
+      width: 250px;
+    }
     max-width: 700px;
   }
   textarea::-webkit-scrollbar {

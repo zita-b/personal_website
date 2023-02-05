@@ -18,7 +18,9 @@ const Wrapper = styled.section`
     z-index: 8;
     margin-bottom: calc(10px + 5vw);
     box-shadow: inset -3px 7px 35px 200px rgba(17, 18, 17, 1),
-      -3px 18px 35px 16px rgba(22, 240, 22, 1);
+      -0px 0px 35px 16px rgba(22, 240, 22, 1);
+      border-radius: 0;
+      padding: 0;
   }
   .link {
     @media (min-width: 992px) {

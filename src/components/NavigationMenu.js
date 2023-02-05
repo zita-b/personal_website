@@ -35,7 +35,10 @@ function NavigationMenu() {
               >
                 <LinkIcon
                   icon={
-                    <img src="https://img.icons8.com/color/48/null/hand-holding-heart.png" alt=""/>
+                    <img
+                      src="https://img.icons8.com/color/48/null/hand-holding-heart.png"
+                      alt=""
+                    />
                   }
                   text={"Donate"}
                 />
@@ -49,7 +52,10 @@ function NavigationMenu() {
                 >
                   <LinkIcon
                     icon={
-                      <img src="https://img.icons8.com/color/48/null/instagram-new--v1.png" alt=""/>
+                      <img
+                        src="https://img.icons8.com/color/48/null/instagram-new--v1.png"
+                        alt=""
+                      />
                     }
                     text={"Instagram"}
                   />
@@ -62,7 +68,10 @@ function NavigationMenu() {
                 >
                   <LinkIcon
                     icon={
-                      <img src="https://img.icons8.com/color/48/null/discord--v2.png" alt=""/>
+                      <img
+                        src="https://img.icons8.com/color/48/null/discord--v2.png"
+                        alt=""
+                      />
                     }
                     text={"Discord"}
                   />
@@ -75,7 +84,10 @@ function NavigationMenu() {
                 >
                   <LinkIcon
                     icon={
-                      <img src="https://img.icons8.com/color/48/null/twitter--v1.png" alt=""/>
+                      <img
+                        src="https://img.icons8.com/color/48/null/twitter--v1.png"
+                        alt=""
+                      />
                     }
                     text={"Twitter"}
                   />
@@ -88,7 +100,10 @@ function NavigationMenu() {
                 >
                   <LinkIcon
                     icon={
-                      <img src="https://img.icons8.com/color/48/null/tiktok--v1.png" alt=""/>
+                      <img
+                        src="https://img.icons8.com/color/48/null/tiktok--v1.png"
+                        alt=""
+                      />
                     }
                     text={"TikTok"}
                   />
@@ -96,27 +111,18 @@ function NavigationMenu() {
                 <NavDropdown.Divider />
 
                 <NavDropdown.Item
-                  href="https://www.twitch.tv/stephaniequatro"
+                  href="https://www.facebook.com/StephanieQuatro/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
                   target="_blank"
                   className="bg-warning font"
                 >
                   <LinkIcon
                     icon={
-                      <img src="https://img.icons8.com/color/48/null/twitch--v1.png" alt=""/>
+                      <img
+                        src="https://img.icons8.com/color/48/null/facebook-new.png"
+                        alt=""
+                      />
                     }
-                    text={"Twitch"}
-                  />
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="https://open.spotify.com/user/stephanie953?si=809f8bc1731a4771&nd=1"
-                  target="_blank"
-                  className="bg-primary font"
-                >
-                  <LinkIcon
-                    icon={
-                      <img src="https://img.icons8.com/color/48/null/spotify--v1.png" alt=""/>
-                    }
-                    text={"Spotify"}
+                    text={"Facebook"}
                   />
                 </NavDropdown.Item>
               </NavDropdown>
@@ -130,7 +136,10 @@ function NavigationMenu() {
               >
                 <LinkIcon
                   icon={
-                    <img src="https://img.icons8.com/color/48/null/amazon.png" alt=""/>
+                    <img
+                      src="https://img.icons8.com/color/48/null/amazon.png"
+                      alt=""
+                    />
                   }
                   alt=""
                   text={"Wishlist"}
@@ -145,7 +154,10 @@ function NavigationMenu() {
               >
                 <LinkIcon
                   icon={
-                    <img src="https://img.icons8.com/color/48/null/clothes.png" alt=""/>
+                    <img
+                      src="https://img.icons8.com/color/48/null/clothes.png"
+                      alt=""
+                    />
                   }
                   alt=""
                   text={"Merch"}

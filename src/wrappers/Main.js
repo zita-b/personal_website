@@ -35,9 +35,9 @@ const Wrapper = styled.section`
       flex-direction: row;
       gap: 0;
     }
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     @media (min-width: 550px) {
-      margin-bottom: 250px;
+      margin-bottom: calc(100px + 5vw);
     }
     padding: 2vw;
     display: flex;

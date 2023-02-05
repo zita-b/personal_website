@@ -1,6 +1,5 @@
 import LinkIcon from "./LinkIcon";
 import { useEffect, useState } from "react";
-import Promo from "./Promo";
 import Wrapper from "../wrappers/Footer";
 
 const Footer = () => {
@@ -40,7 +39,6 @@ const Footer = () => {
 
   return (
     <Wrapper>
-      <Promo scrolled={scrolled} />
       <footer className={scrolled === "down" ? "hide" : "show"}>
         <img
           src={require("../images/logo.png")}
@@ -49,13 +47,16 @@ const Footer = () => {
           style={{ width: "100px", height: "100px", cursor: "pointer" }}
           onClick={() => window.scrollTo(0, 0)}
         />
-        <a href="https://roveremedies.nl/" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.twitch.tv/stephaniequatro"
+          target="_blank"
+          rel="noreferrer"
+        >
           <LinkIcon
             icon={
-              <img src="https://img.icons8.com/color/48/null/electronic-cigarette.png" alt=""/>
+              <img src="https://img.icons8.com/color/48/null/twitch--v1.png" alt=""/>
             }
-            alt=""
-            text={"Rove Remedies"}
+            text={"Twitch"}
           />
         </a>
         <a
@@ -74,18 +75,15 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://www.facebook.com/StephanieQuatro/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&show_community_transition=0&show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0"
+          href="https://open.spotify.com/user/stephanie953?si=809f8bc1731a4771&nd=1"
           target="_blank"
           rel="noreferrer"
         >
           <LinkIcon
             icon={
-              <img
-                src="https://img.icons8.com/color/48/null/facebook-new.png"
-                alt=""
-              />
+              <img src="https://img.icons8.com/color/48/null/spotify--v1.png" alt=""/>
             }
-            text={"Facebook"}
+            text={"Spotify"}
           />
         </a>
       </footer>

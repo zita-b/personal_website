@@ -24,7 +24,7 @@ const Wrapper = styled.section`
   }
 
   .hero-container {
-    margin-bottom: calc(100px + 5vw);
+    margin-bottom: calc(50px + 5vw);
     border-radius: 50px;
     @media (min-width: 933px) {
       flex-direction: row;

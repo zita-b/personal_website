@@ -16,7 +16,7 @@ const Wrapper = styled.section`
     width: 100%;
     z-index: 5;
     text-decoration: none;
-    padding: 2vw;
+    padding: calc(10px + 2vw);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -24,6 +24,8 @@ const Wrapper = styled.section`
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 700ms;
+    box-shadow: 0px 0px 35px 16px rgba(22, 240, 22, 1);
+    border-radius: 0;
   }
   .hide {
     bottom: -7rem;
